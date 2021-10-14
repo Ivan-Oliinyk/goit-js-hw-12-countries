@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/world-map.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  min-height: calc(100vh - 49px);
+}
+
+li {
+  list-style-type: none;
+}
+
+.wrapper {
+  min-width: 60%;
+}
+
+.input {
+  margin-bottom: 40px;
+  padding: 20px;
+  display: block;
+  min-height: 40px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background: rgba(220, 255, 255, 0.5);
+  font-size: 26px;
+  color: rgb(245, 210, 13);
+  text-shadow: 0 0 3px rgb(250, 0, 0);
+  box-shadow: 0 0 9px black;
+  outline: none;
+  width: 100%;
+}
+
+.markup-country {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  background: rgba(220, 255, 255, 0.5);
+  color: rgb(2, 130, 235);
+  text-shadow: 0 0 3px rgb(250, 0, 0);
+  border-radius: 10px;
+  min-height: 420px;
+  box-shadow: 0 0 9px black;
+  width: 100%;
+}
+
+.country {
+  display: flex;
+  background: rgba(220, 255, 255, 0.7);
+  border-radius: 10px 0 0 10px;
+  min-width: 95%;
+}
+
+.country-name {
+  margin-top: 0;
+}
+
+.description {
+  padding: 30px;
+  min-width: 40%;
+}
+
+.description-item:not(:last-of-type) {
+  margin-bottom: 25px;
+}
+
+.languages-item {
+  margin-top: 5px;
+}
+
+.country-flag {
+  margin-left: auto;
+  display: block;
+  max-width: 500px;
+  box-shadow: 0 0 9px black;
+}
