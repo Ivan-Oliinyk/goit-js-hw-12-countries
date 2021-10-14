@@ -61,13 +61,13 @@ function createMarkup(country) {
   refs.markup.innerHTML = markup;
 }
 
-function clearMarkup() {
-  refs.markup.innerHTML = "";
-}
-
 function createCountryListMarkup(list) {
   const markup = countryList(list);
   refs.markup.innerHTML = markup;
+}
+
+function clearMarkup() {
+  refs.markup.innerHTML = "";
 }
 
 function onError() {
